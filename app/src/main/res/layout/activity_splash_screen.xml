@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashScreen"
     android:orientation="vertical"
+    android:background="@color/My_Color"
     android:gravity="center">
 
-    <ImageView
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/splashimage"
-        android:id="@+id/imgSplash"/>
+        android:layout_height="wrap_content"
+        android:text="Notes Pro"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="50sp"/>
 
-</RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Empowering Note-taking with Notes Pro !"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="17sp"/>
+
+</LinearLayout>
